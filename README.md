@@ -31,7 +31,7 @@ It includes:
 ```
 project/
 ├── app/
-│ └── streamlit_app.py # Interactive Streamlit app
+│ └── app.py # Interactive Streamlit app
 ├── data/ # Dataset (ignored in GitHub)
 │ └── Chest_xray_Corona_Metadata.csv
 ├── models/ # Saved model weights
@@ -98,7 +98,7 @@ Output :
 
 ### 5- 🌐 Run Streamlit App
 ```
-streamlit run app/streamlit_app.py
+streamlit run app/app.py
 ``` 
 
 
