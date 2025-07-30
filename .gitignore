@@ -1,0 +1,23 @@
+
+# Virtual environments
+venv/
+.env/
+
+# Dataset
+data/
+
+
+# Model weights
+models/*.pth
+
+# Outputs & logs
+outputs/
+
+
+# Python cache
+__pycache__/
+
+
+# Streamlit cache
+app/.streamlit/
+
