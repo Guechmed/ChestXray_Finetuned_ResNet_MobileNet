@@ -28,7 +28,7 @@ It includes:
 ---
 
 ## 📂 Repository Structure
-
+```
 project/
 ├── app/
 │ └── streamlit_app.py # Interactive Streamlit app
@@ -43,6 +43,7 @@ project/
 ├── inference.py # CLI script for predictions
 ├── requirements.txt # Project dependencies
 └── README.md
+```
 
 ## 🚀 How to Run
 
