@@ -14,7 +14,7 @@ It includes:
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 - **Transfer Learning:** fine-tuned `MobileNetV2` and `ResNet18`
 - **Dataset:** `Chest_xray_Corona_Metadata.csv` + X-ray images
@@ -69,17 +69,24 @@ data/
 ### 3  - 📊 Train Models
 
 ```  
-Train ResNet18:
+----Train ResNet18 (with class-weighted loss) ----:
 
-python train.py --model resnet --epochs 10
+### 🔹 Train ResNet18 
+```bash 
+python train.py --model resnet --epochs 50 --weighted
 
-Train MobileNetV2 : 
-python train.py --model mobilenet --epochs 10
+----Train MobileNetV2---- : 
+python train.py --model mobilenet --epochs 50 --weighted
 
+U can pass oter arguments to the command too :
+
+python train.py --model resnet --epochs 50 --lr 1e-4 --batch_size 64  --weighted --save_path models --output_path output 
+
+=========
 Models are saved automatically under models/
 
 Accuracy & loss curves are saved to outputs/
-
+====== 
 ``` 
 ###  4- 🔍 Run Inference (Terminal)
 ```
