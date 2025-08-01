@@ -27,6 +27,27 @@ It includes:
 
 ---
 
+
+## 📈 Evaluation Results
+### 🔹 Accuracy Curve
+![Accuracy Curve](outputs/curves/ResNet/acc_curve.png)
+
+### 🔹 Confusion Matrix
+![Confusion Matrix](outputs/reports/ResNet/confusion_matrix.png)
+
+
+### 🔹 Classification Report
+
+              precision    recall  f1-score   support
+
+      Normal     0.8502    0.8974    0.8732       234
+    Pnemonia     0.9363    0.9051    0.9205       390
+
+    accuracy                         0.9022       624
+   macro avg     0.8933    0.9013    0.8968       624
+weighted avg     0.9040    0.9022    0.9027       624
+
+
 ## 📂 Repository Structure
 ```
 project/
