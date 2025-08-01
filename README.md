@@ -53,8 +53,10 @@ weighted avg     0.9040    0.9022    0.9027       624
 project/
 ├── app/
 │ └── app.py # Interactive Streamlit app
-├── data/ # Dataset (ignored in GitHub)
+├── data/ # Dataset 
 │ └── Chest_xray_Corona_Metadata.csv
+│ └──train
+  └──test
 ├── models/ # Saved model weights
 │ ├── best_MobileNetV2_model.pth
 │ └── best_ResNet_model.pth
@@ -128,6 +130,7 @@ Output :
 ```
 streamlit run app/app.py
 ``` 
+
 
 
 
